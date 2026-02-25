@@ -151,5 +151,9 @@ public class LoginTest extends BaseTest {
 		pdList.addStoreInfo();
 		
 	}
-
+	@Test
+	public void addstore1() throws InterruptedException {
+		System.out.println("Hello Java");
+		
+	}
 }
