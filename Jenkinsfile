@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/MukeshPooja/Selenium-Java-TestNG.git',
                     credentialsId: 'github-credentials'
             }
