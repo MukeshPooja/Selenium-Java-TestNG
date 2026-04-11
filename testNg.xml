@@ -1,7 +1,18 @@
-<suite name="LoginSuite">
-	<test name="LoginTest">
-		<classes>
-			<class name="tests.LoginTest" />
-		</classes>
-	</test>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation Suite" parallel="tests" thread-count="2">
+    
+    <listeners>
+        <!-- Add your custom listeners if any -->
+    </listeners>
+    
+    <test name="Login Tests">
+        <classes>
+            <!-- Add your test classes here -->
+            <!-- Example: -->
+            <!-- <class name="com.test.automation.tests.LoginTest"/> -->
+        </classes>
+    </test>
+    
 </suite>
